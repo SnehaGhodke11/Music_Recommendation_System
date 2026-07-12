@@ -11,7 +11,7 @@ st.set_page_config(page_title="🎵 Music Recommender System", layout="wide")
 page_bg = """
 <style>
 [data-testid="stAppViewContainer"] {
-    background-image: url("images/main.jpg");
+    background-image: url("main.jpg");
     background-size: cover;
 }
 [data-testid="stHeader"] {
@@ -98,39 +98,39 @@ st.sidebar.header("📂 Explore Categories")
 
 with st.sidebar.expander("90's Songs"):
     if st.sidebar.button("Open 90's Songs"):
-        st.sidebar.image("images/90s.jpg", caption="90's Songs", use_container_width=True)
+        st.sidebar.image("90s.jpg", caption="90's Songs", use_container_width=True)
 
 with st.sidebar.expander("60's Songs"):
     if st.sidebar.button("Open 60's Songs"):
-        st.sidebar.image("images/60s.jpg", caption="60's Songs", use_container_width=True)
+        st.sidebar.image("60s.jpg", caption="60's Songs", use_container_width=True)
 
 with st.sidebar.expander("Rap Hits"):
     if st.sidebar.button("Open Rap Songs"):
-        st.sidebar.image("images/Rap.jpg", caption="Rap Songs", use_container_width=True)
+        st.sidebar.image("Rap.jpg", caption="Rap Songs", use_container_width=True)
 
 with st.sidebar.expander("Marathi Songs"):
     if st.sidebar.button("Open Marathi Songs"):
-        st.sidebar.image("images/Marathi.jpg", caption="Marathi Songs", use_container_width=True)
+        st.sidebar.image("Marathi.jpg", caption="Marathi Songs", use_container_width=True)
 
 # 3. SRK Hits
 st.sidebar.header("🎬 SRK Hits")
 if st.sidebar.button("Open SRK Songs"):
-    st.sidebar.image("images/SRK.jpg", caption="SRK Songs", use_container_width=True)
+    st.sidebar.image("SRK.jpg", caption="SRK Songs", use_container_width=True)
 
 # 4. Vijay Thalapathy Hits
 st.sidebar.header("🔥 Vijay Thalapathy Hits")
 if st.sidebar.button("Open Vijay Songs"):
-    st.sidebar.image("images/Vijay.jpg", caption="Vijay Thalapathy Songs", use_container_width=True)
+    st.sidebar.image("Vijay.jpg", caption="Vijay Thalapathy Songs", use_container_width=True)
 
 # 5. Shreya Ghoshal Hits
 st.sidebar.header("🎤 Shreya Ghoshal Hits")
 if st.sidebar.button("Open Shreya Songs"):
-    st.sidebar.image("images/Shreya.jpg", caption="Shreya Songs", use_container_width=True)
+    st.sidebar.image("Shreya.jpg", caption="Shreya Songs", use_container_width=True)
 
 # 6. Sonu Nigam Hits
 st.sidebar.header("🎶 Sonu Nigam Hits")
 if st.sidebar.button("Open Sonu Songs"):
-    st.sidebar.image("images/Sonu.jpg", caption="Sonu Songs", use_container_width=True)
+    st.sidebar.image("Sonu.jpg", caption="Sonu Songs", use_container_width=True)
 
 # Footer
 st.sidebar.markdown("---")
