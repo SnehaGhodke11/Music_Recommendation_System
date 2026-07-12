@@ -22,8 +22,10 @@ page_bg = """
     border-radius: 8px;
     padding: 10px;
     margin: 10px 0;
-    background-color: #f9f9f9;
+    background-color: rgba(255,255,255,0.85); /* light background with slight transparency */
+    color: #000000; /* black text for visibility */
 }
+
 </style>
 """
 st.markdown(page_bg, unsafe_allow_html=True)
